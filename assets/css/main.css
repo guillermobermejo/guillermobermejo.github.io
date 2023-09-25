@@ -1,12 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
-/*
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -440,7 +434,7 @@ input, select, textarea {
 /* Nav Main Bar */
 
 		.nav-all-options {
-			font-size: 15px;
+			font-size: 14px;
 		}
 
 		.nav-option {
@@ -516,132 +510,160 @@ input, select, textarea {
 /* Skills Icons */
 
 		.icon.axios {
-			width: 7rem;
+			width: 5rem;
 		}
 
 		.icon.bootstrap {
-			width: 6rem;
+			width: 4rem;
 		}
 
 		.icon.c {
-			width: 6rem;
+			width: 4rem;
 		}
 
 		.icon.canva {
-			width: 7rem;
+			width: 5rem;
 		}
 
 		.icon.chartjs {
-			width: 5rem;
+			width: 3rem;
 		}		
 
 		.icon.cplusplus {
-			width: 6rem;
+			width: 4rem;
 		}
 
 		.icon.csharp {
-			width: 6rem;
+			width: 4rem;
 		}
 
 		.icon.css {
-			width: 6rem;
+			width: 4rem;
 		}		
 
 		.icon.express {
-			width: 12rem;
-		}
-
-		.icon.fetch {
-			width: 8rem;
-		}
-
-		.icon.figma {
-			width: 5rem;
-		}
-
-		.icon.frappecharts {
-			width: 6rem;
-		}
-
-		.icon.git {
-			width: 6rem;
-		}
-
-		.icon.github {
-			width: 9rem;
-		}
-
-		.icon.html {
-			width: 6rem;
-		}
-
-		.icon.java {
-			width: 7rem;
-		}
-
-		.icon.javascript {
-			width: 6rem;
-		}
-
-		.icon.leaflet {
-			width: 9rem;
-		}
-
-		.icon.lucidchart {
-			width: 9rem;
-		}
-
-		.icon.materialui {
-			width: 6rem;
-		}
-
-		.icon.mongodb {
-			width: 9rem;
-		}
-
-		.icon.mysql {
-			width: 8rem;
-		}
-
-		.icon.nodejs {
-			width: 7rem;
-		}
-
-		.icon.ocaml {
-			width: 6rem;
-		}
-
-		.icon.plotly {
 			width: 10rem;
 		}
 
-		.icon.postman {
+		.icon.fetch {
 			width: 6rem;
 		}
 
-		.icon.python {
-			width: 6rem;
+		.icon.figma {
+			width: 3rem;
 		}
 
-		.icon.reactjs {
-			width: 6rem;
+		.icon.frappecharts {
+			width: 4rem;
 		}
 
-		.icon.sbu {
-			width: 13rem;
+		.icon.git {
+			width: 4rem;
 		}
 
-		.icon.springboot {
-			width: 13rem;
-		}
-
-		.icon.vba {
+		.icon.github {
 			width: 7rem;
 		}
 
-		.icon.wcc {
-			width: 14rem;
+		.icon.html {
+			width: 4rem;
 		}
+
+		.icon.java {
+			width: 5rem;
+		}
+
+		.icon.javascript {
+			width: 4rem;
+		}
+
+		.icon.leaflet {
+			width: 7rem;
+		}
+
+		.icon.lucidchart {
+			width: 7rem;
+		}
+
+		.icon.materialui {
+			width: 4rem;
+		}
+
+		.icon.mongodb {
+			width: 7rem;
+		}
+
+		.icon.mysql {
+			width: 6rem;
+		}
+
+		.icon.nodejs {
+			width: 5rem;
+		}
+
+		.icon.ocaml {
+			width: 4rem;
+		}
+
+		.icon.plotly {
+			width: 8rem;
+		}
+
+		.icon.postman {
+			width: 4rem;
+		}
+
+		.icon.python {
+			width: 4rem;
+		}
+
+		.icon.reactjs {
+			width: 4rem;
+		}
+
+		.icon.sbu {
+			width: 12rem;
+		}
+
+		.icon.springboot {
+			width: 11rem;
+		}
+
+		.icon.vba {
+			width: 5rem;
+		}
+
+		.icon.wcc {
+			width: 12rem;
+		}
+
+
+		.collapsible {
+			background-color: #777;
+			color: white;
+			cursor: pointer;
+			padding: 18px;
+			width: 100%;
+			border: none;
+			text-align: left;
+			outline: none;
+			font-size: 15px;
+		  }
+		  
+		  .active, .collapsible:hover {
+			background-color: #555;
+		  }
+		  
+		  .content {
+			padding: 0 18px;
+			display: none;
+			overflow: hidden;
+			background-color: #f1f1f1;
+		  }
+
+		  .float-right {
+			float: right;
+		  }
 /**************************************************************************************/
 /* Row */
 
