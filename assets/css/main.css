@@ -399,6 +399,7 @@ input, select, textarea {
 		.header-table-right {
 			width: 60%;
 			float: right;
+			overflow-x:scroll
 		}
 
 		.centered-diagram {
