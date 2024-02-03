@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Cantata One
+- Font Author: Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com), with Reserved Font Name "Cantata"
+- Font Source: http://fonts.gstatic.com/s/cantataone/v15/PlI5Fl60Nb5obNzNe2jslVxEt8CwfGaD.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
