@@ -439,7 +439,7 @@ input, select, textarea {
 		}
 
 		.nav-option {
-			display: inline;
+			display:inline-block;
 		}
 
 		.showcase-container-left {
