@@ -404,8 +404,9 @@ input, select, textarea {
 
 		.centered-diagram {
 			width: auto; 
-			display: flex; 
-			justify-content: center;
+			height: auto;
+			
+			
 		}
 
 		.centered-diagram-details {
@@ -416,11 +417,6 @@ input, select, textarea {
 		.left-diagram {
 			width: auto;
 			justify-content: left;
-		}
-
-		.left-diagram-details {
-			display: inline-block; 
-			margin-left: 2%;
 		}
 
 		.left-diagram-details {
