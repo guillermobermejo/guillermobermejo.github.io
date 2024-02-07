@@ -450,6 +450,12 @@ input, select, textarea {
 			width: 50%;
 		}
 
+		.showcase-container-right-header {
+			float: right; 
+			margin-left: 4%; 
+			width: 40%;
+		}
+
 		.project-info-container-left {
 			float: left; 
 			margin-right: 4%; 
