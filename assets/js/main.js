@@ -112,7 +112,7 @@
 
 	// Gerrymandering Project	
 
-		// Section: Project-info
+		// Section: Project-header
 
 		$window.on('load', function() {
 
@@ -131,6 +131,8 @@
 			});
 
 		});		
+
+		// Section: Project-info
 
 			$window.on('load', function() {
 
@@ -311,9 +313,27 @@
 			});
 
 
-
-
 	// Angelinas Deli Project
+
+			// Section: Project-header
+
+			$window.on('load', function() {
+
+				$('#angelinas-deli-contract-project-header-table').poptrox({
+					caption: function($a) { return $a.next('h3').text(); },
+					overlayColor: '#2c2c2c',
+					overlayOpacity: 0.85,
+					popupCloserText: '',
+					popupLoaderText: '',
+					selector: '.work-item a.image',
+					usePopupCaption: true,
+					usePopupDefaultStyling: false,
+					usePopupEasyClose: false,
+					usePopupNav: true,
+					windowMargin: (breakpoints.active('<=small') ? 0 : 50)
+				});
+
+			});
 		
 		// Section: Project-info
 
