@@ -3684,7 +3684,7 @@
                                         Vanilla <em class="font-sbu-red">JavaScript</em> and <em class="font-sbu-red">HTML</em> is used for the Front-End with 
                                         <em class="font-sbu-red">CSS</em> and <em class="font-sbu-red">Bootstrap</em> for Styling. The 
                                         <em class="font-sbu-red">Leaflet</em> library is used for displaying the map and plan districting data from 
-                                        <strong>GeoJSON</strong> files. The <em class="font-sbu-red">Plotly</em> and <em class="font-sbu-red">Chart.js</em> 
+                                        <em>GeoJSON</em> files. The <em class="font-sbu-red">Plotly</em> and <em class="font-sbu-red">Chart.js</em> 
                                         libraries as well as the <em class="font-sbu-red">Frappe Charts</em> API are used for handling and displaying all charts. 
                                         <em class="font-sbu-red">Canva</em> is used for graphic design.
                                     </p>
@@ -3694,9 +3694,9 @@
 
                                     <h5 class="project-subsection-subtopic-header">GUI Structure</h5>
                                     <p>
-                                        The GUI was implemented using a <strong>2-sided screen</strong> approach. The left hand side handles most of the 
+                                        The GUI was implemented using a <em>2-sided screen</em> approach. The left hand side handles most of the 
                                         user interaction and is the side used for displaying the data based on user criteria with the right side handling the 
-                                        map, i.e., scrolling, zooming, on-click functionality. A <strong>static tool bar</strong> is anchored above the main 
+                                        map, i.e., scrolling, zooming, on-click functionality. A <em>static tool bar</em> is anchored above the main 
                                         display consisting of a focus label and three drop down menus. The left most handling flying in or out of a state, 
                                         the middle handling the overlaying of plans as well as serving as an indicater of how many plans has been selected, 
                                         the right most handling the overlying of a demographic heat map on the map with the focus label displaying the plan 
@@ -3706,8 +3706,10 @@
                                     <p>
                                         The final ratio of these screens is 60/40, changed from 40/60 during design implementation. The left side uses a tabular 
                                         style to toggle between different analysis tabs, each consisting of their respective graphical representation. Upon launch 
-                                        the general data tab (<span class="font-sbu-red">Statewide Data</span>) is selected by default, with the slected state's 
-                                        current plan chosen by default naturally displaying the current state's basic analytics.
+                                        the general data tab (
+                                        <a href="#subsection-contribution-gui-tab-1" class="quick-link"><em class="font-sbu-red">Statewide Data</em></a>) is 
+                                        selected by default, with the slected state's current plan chosen by default naturally displaying the current state's 
+                                        basic analytics.
                                     </p>
 
                                     <!-- GUI: Application Code Structure -->
@@ -3731,7 +3733,7 @@
                                         Notably, the configuration folder and identifier folder hold the configuration of the map (i.e., max zoom-in/zoom-out, 
                                         max scroll) and other default values while the other holds the <span class="font-sbu-red">Enum</span> classes for identifying 
                                         specific state, plan or box-whisker groups. This is done for isolating debugging and establishing global identifiers 
-                                        for the application to eliminate the possibility of '<strong>magic numbers</strong>'.
+                                        for the application to refrain from using '<em>magic numbers</em>'.
                                     </p>
 
                                     <p>
@@ -3759,14 +3761,16 @@
 
                                     <p>
                                         Taking the first showcase of this section of flying to states, when the user chooses a state from the state drop down menu or 
-                                        from clicking on a state on the map, the controller sends a request to the server for the <strong>State</strong> object 
+                                        from clicking on a state on the map, the controller sends a request to the server for the 
+                                        <a href="#subsection-uml-class-diagram-state-class" class="quick-link">State</a> object 
                                         pertaining to the state chosen. The JSON object returned by the Server contains the state's general information used on the 
-                                        Front-End to update the display of the <span class="font-sbu-red">Statewide Data</span> tab (i.e, total population, total districts, 
-                                        plan info and status). Afterword, a global <strong>current state</strong> variable is updated on the Front-End which is 
-                                        assigned a State <span class="font-sbu-red">Enum</span> identifier in preparation of state specific requests to the server for 
-                                        data calculated on the <em class="font-sbu-red">SeaWulf</em>. This data is needed for populating the graphs for analysis 
-                                        on subsequent tabs. Some data is <strong>cached</strong> on the Front-End in order to reduce the strain of making multiple 
-                                        calls for costly data and affecting performance as a result.
+                                        Front-End to update the display of the 
+                                        <a href="#subsection-contribution-gui-tab-1" class="quick-link"><em class="font-sbu-red">Statewide Data</em></a> tab 
+                                        (i.e, total population, total districts, plan info and status). Afterword, a global <em>current state</em> variable is 
+                                        updated on the Front-End which is assigned a State <span class="font-sbu-red">Enum</span> identifier in preparation of state 
+                                        specific requests to the server for data calculated on the <em class="font-sbu-red">SeaWulf</em>. This data is needed for 
+                                        populating the graphs for analysis on subsequent tabs. Some data is <em>cached</em> on the Front-End in order to reduce 
+                                        the strain of making multiple calls for costly data and affecting performance as a result.
                                     </p>
                                 </section>
 
@@ -3863,9 +3867,10 @@
                                     <p>
                                         Simultaneous overlaying of plan <em class="font-sbu-red">GeoJSON</em> data was implemented. This allows the user
                                         to visualize districting differences between selected plans and directly affects the analysis tabs 
-                                        <span class="font-sbu-red">Plan Details</span> and <span class="font-sbu-red">Plans Summaries</span>. The former handles 
-                                        the focused plan (displayed on the focus label), the latter focuses on all selected plans for comparison. 
-                                        District data presented on-hover pertains to the focused plan.
+                                        <a href="#subsection-contribution-gui-tab-2" class="quick-link"><em class="font-sbu-red">Plan Details</em></a> and
+                                        <a href="#subsection-contribution-gui-tab-3" class="quick-link"><em class="font-sbu-red">Plan Summaries</em></a>. 
+                                        The former handles the focused plan (displayed on the focus label), the latter focuses on all selected plans for 
+                                        comparison. District data presented on-hover pertains to the focused plan.
                                     </p>
 
                                     <!-- Plan Overlaying: Plan Focusing -->
@@ -3883,10 +3888,11 @@
 
                                     <h5 class="project-subsection-subtopic-header">Plan Selecting</h5>
                                     <p>
-                                        Selecting plans can be done through the general statistics tab <span class="font-sbu-red">Statewide Data</span> or through the 
-                                        middle dropdown menu on the toolbar that toggles a checkbox menu, updating the number of plans selected accordingly. This 
-                                        is done so if the user is in another tab other than the general statistics tab, they may still change the plans selected 
-                                        for comparison without changing tabs.
+                                        Selecting plans can be done through the general statistics tab 
+                                        <a href="#subsection-contribution-gui-tab-1" class="quick-link"><em class="font-sbu-red">Statewide Data</em></a>
+                                        or through the middle dropdown menu on the toolbar that toggles a checkbox menu, updating the number of plans selected 
+                                        accordingly. This is done so if the user is in another tab other than the general statistics tab, they may still change 
+                                        the plans selected for comparison without changing tabs.
                                     </p>
                                 </section>
 
@@ -3982,13 +3988,13 @@
                                         </p>
 
                                         <ul class="small-font">
-                                            <li>Statewide Data</li>
-                                            <li>Plan Details</li>
-                                            <li>Plans Summaries</li>
-                                            <li>Plans Anomalies</li>
-                                            <li>SeaWulf Ensemble</li>
-                                            <li>Box and Whisker</li>
-                                            <li>Sources</li>
+                                            <li><a href="#subsection-contribution-gui-tab-1" class="quick-link">Statewide Data</a></li>
+                                            <li><a href="#subsection-contribution-gui-tab-2" class="quick-link">Plan Details</a></li>
+                                            <li><a href="#subsection-contribution-gui-tab-3" class="quick-link">Plans Summaries</a></li>
+                                            <li><a href="#subsection-contribution-gui-tab-4" class="quick-link">Plans Anomalies</a></li>
+                                            <li><a href="#subsection-contribution-gui-tab-5" class="quick-link">SeaWulf Ensemble</a></li>
+                                            <li><a href="#subsection-contribution-gui-tab-6" class="quick-link">Box and Whisker</a></li>
+                                            <li><a href="#subsection-contribution-gui-tab-7" class="quick-link">Sources</a></li>
                                         </ul>
                                         
                                         <p>
@@ -4234,21 +4240,21 @@
 
                                         <h5 class="project-subsection-subtopic-header">Tab Info</h5>
                                         <p>
-                                            The Plans Summaries tab summarizes the following for analyzing each districting plan.
+                                            The Plans Summaries tab summarizes the following testing measures for a specific combination of plans the user selects.
                                         </p>
                                         <ul class="small-font grid-list">
-                                            <li>Competitive Districts</li>
-                                            <li>Compactness</li>
-                                            <li>Split Counties Score</li>
-                                            <li>Efficiency Gap</li>
-                                            <li>Equal Population Measures</li>
-                                            <li>Majority-minority Districts</li>
+                                            <li><a href="#subsection-testing-measures-competitive-districts" class="quick-link">Competitive Districts</a></li>
+                                            <li><a href="#subsection-testing-measures-compactness" class="quick-link">Compactness</a></li>
+                                            <li><a href="#subsection-testing-measures-split-county-score" class="quick-link">Split Counties Score</a></li>
+                                            <li><a href="#subsection-testing-measures-efficiency-gap" class="quick-link">Efficiency Gap</a></li>
+                                            <li><a href="#subsection-testing-measures-equal-population-measures" class="quick-link">Equal Population Measures</a></li>
+                                            <li><a href="#subsection-testing-measures-majority-minority-districts" class="quick-link">Majority-minority Districts</a></li>
                                         </ul>
 
                                         <p>
-                                            The data for each metric is also calculated on the <span class="font-sbu-red">SeaWulf</span> and retrieved from the Server. This 
-                                            data is then charted on the radar plot on this tab. This data has been scaled and normalized to be displayed properly on 
-                                            the radar plot.
+                                            The data for each metric is calculated on the <span class="font-sbu-red">SeaWulf</span> then later stored and retrieved from the 
+                                            Server. This data is then charted on the radar plot on this tab. This data is scaled and normalized to be displayed properly 
+                                            on the radar plot.
                                         </p>
 
                                         <p>
@@ -4281,33 +4287,36 @@
 
                                         <h5 class="font-black"><strong><em>Interpreting</em> the Radar Plot</strong></h5>
                                         <p>
-                                            Analyzing the radar plot is relatively straightforward when taking the following into account (click here for 
-                                            rereading test measures).
+                                            Analyzing the radar plot is straightforward. Based on the testing measures below, you compare the test measure value to 
+                                            that of another plan on the radar plot to determine which is more anomolous if at all. Explanations of these values were 
+                                            covered in the testing measure 
+                                            <a href="#section-gerrymandering-testing-measures" class="quick-link"><em class="font-sbu-red">Testing Measures</em></a>
+                                            section of this page.
                                         </p>
 
                                         <table class="small-font">
                                             <tr>
                                                 <td>
-                                                    Compactness
+                                                    <a href="#subsection-testing-measures-compactness" class="quick-link"><em>Compactness</em></a>
                                                 </td>
                                                 <td>
-                                                    Competetive Districts
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    Efficiency Gap
-                                                </td>
-                                                <td>
-                                                    Equal Population Measures
+                                                    <a href="#subsection-testing-measures-competitive-districts" class="quick-link"><em>Competitive Districts</em></a>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    Majority-Minority Districts
+                                                    <a href="#subsection-testing-measures-efficiency-gap" class="quick-link"><em>Efficiency Gap</em></a>
                                                 </td>
                                                 <td>
-                                                    Split County Score
+                                                    <a href="#subsection-testing-measures-equal-population-measures" class="quick-link"><em>Equal Population Measures</em></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a href="#subsection-testing-measures-majority-minority-districts" class="quick-link"><em>Majority-Minority Districts</em></a>
+                                                </td>
+                                                <td>
+                                                    <a href="#subsection-testing-measures-split-county-score" class="quick-link"><em>Split County Score</em></a>
                                                 </td>
                                             </tr>
                                         </table>
@@ -4352,34 +4361,34 @@
                                         <table class="small-font">
                                             <tr>
                                                 <td>
-                                                    Democratic Responsiveness
+                                                    <a href="#subsection-testing-measures-vote-seat-analysis-responsiveness" class="quick-link">Democratic Responsiveness</a>
                                                 </td>
                                                 <td>
-                                                    Republican Responsiveness
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    Democratic Bias
-                                                </td>
-                                                <td>
-                                                    Republican Bias
+                                                    <a href="#subsection-testing-measures-vote-seat-analysis-responsiveness" class="quick-link">Republican Responsiveness</a>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    Symmetry
+                                                    <a href="#subsection-testing-measures-vote-seat-analysis-bias" class="quick-link">Democratic Bias</a>
                                                 </td>
                                                 <td>
-                                                    Efficiency Gap
+                                                    <a href="#subsection-testing-measures-vote-seat-analysis-bias" class="quick-link">Republican Bias</a>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    Compactness Average
+                                                    <a href="#subsection-testing-measures-vote-seat-analysis-symmetry" class="quick-link">Symmetry</a>
                                                 </td>
                                                 <td>
-                                                    Split County Score
+                                                    <a href="#subsection-testing-measures-efficiency-gap" class="quick-link">Efficiency Gap</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a href="#subsection-testing-measures-compactness" class="quick-link">Compactness Average</a>
+                                                </td>
+                                                <td>
+                                                    <a href="#subsection-testing-measures-split-county-score" class="quick-link">Split County Score</a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -4387,15 +4396,10 @@
                                                     Vote Split
                                                 </td>
                                                 <td>
-                                                    Equal Populations
+                                                    <a href="#subsection-testing-measures-equal-population-measures" class="quick-link">Equal Populations</a>
                                                 </td>
                                             </tr>
                                         </table>
-
-                                        <p>
-                                            Explanations of these metrics can be read again 
-                                            <a href="#subsection-testing-measures-vote-seat-analysis" class="quick-link"><em class="font-sbu-red">here</em></a>.
-                                        </p>
 
                                         <!-- Tab 4/7 - Plans Anomalies: Metrics Conclusion -->
 
@@ -4442,8 +4446,8 @@
                                         </p>
 
                                         <ul class="small-font grid-list">
-                                            <li>Majority-minority </li>
-                                            <li>Split County Scores</li>
+                                            <li><a href="#subsection-testing-measures-majority-minority-districts" class="quick-link">Majority-minority districts</a></li>
+                                            <li><a href="#subsection-testing-measures-split-county-score" class="quick-link">Split County Scores</a></li>
                                             <li>Republican-Democratic Split</li>
                                         </ul>                                        
                                         
@@ -4473,10 +4477,13 @@
                                         <h5 class="project-subsection-subtopic-header">Split County Explanation</h5>
                                         <p>
                                             Counties are generally split when the population is too high and also in accordance to keep within the metric of 
-                                            <span class="font-sbu-red">Equal Population</span>. A 'split county score' of <strong>1%</strong> is ideal as this means 
+                                            <a href="#subsection-testing-measures-equal-population-measures" class="quick-link"><em class="font-sbu-red">Equal Population</em></a>. 
+                                            A 'split county score' of <strong>1%</strong> is ideal as this means 
                                             that counties have not been split, the larger the number more splitting has been involved. In our case regarding the 
                                             state of Arizona, all plan's split county score are still considered good being between <strong>1.27% - 1.37%</strong>. 
-                                            These scores are displayed in the <span class="font-sbu-red">Plans Summaries</span> tab, scaled on the radar plot after being 
+                                            These scores are displayed in the 
+                                            <a href="#subsection-contribution-gui-tab-3" class="quick-link"><em class="font-sbu-red">Plans Summaries</em></a>
+                                            tab, scaled on the radar plot after being 
                                             normalized.
                                         </p>
 
@@ -4757,7 +4764,7 @@
                                         <p>
                                             The calculations for altering the plans on the <span class="font-sbu-red">SeaWulf</span> is largely based on the research made 
                                             by Duchin's group as well as the districting plans used for Alabama as examples were not available on 
-                                            <span class="font-sbu-red">FiveThirtyEight</span>.
+                                            <a href="https://projects.fivethirtyeight.com/redistricting-2022-maps/" class="quick-link"><span class="font-sbu-red">FiveThirtyEight</span></a>.
                                         </p>
                                     </section>
                                 </section>
