@@ -512,134 +512,17 @@ input, select, textarea {
 
 /* Skills Icons */
 
-		.icon.axios {
-			width: 5rem;
-		}
-
-		.icon.bootstrap {
-			width: 4rem;
-		}
-
-		.icon.c {
-			width: 4rem;
-		}
-
 		.icon.canva {
-			width: 5rem;
+			width: 2rem;
 		}
 
-		.icon.chartjs {
-			width: 3rem;
-		}		
-
-		.icon.cplusplus {
-			width: 4rem;
-		}
-
-		.icon.csharp {
-			width: 4rem;
-		}
-
-		.icon.css {
-			width: 4rem;
-		}		
-
-		.icon.express {
-			width: 10rem;
-		}
-
-		.icon.fetch {
-			width: 6rem;
-		}
-
-		.icon.figma {
+		.icon.microsoft.powerpoint {
 			width: 3rem;
 		}
 
-		.icon.frappecharts {
-			width: 4rem;
+		.icon.microsoft.excel {
+			width: 3rem;
 		}
-
-		.icon.git {
-			width: 4rem;
-		}
-
-		.icon.github {
-			width: 7rem;
-		}
-
-		.icon.html {
-			width: 4rem;
-		}
-
-		.icon.java {
-			width: 5rem;
-		}
-
-		.icon.javascript {
-			width: 4rem;
-		}
-
-		.icon.leaflet {
-			width: 7rem;
-		}
-
-		.icon.lucidchart {
-			width: 7rem;
-		}
-
-		.icon.materialui {
-			width: 4rem;
-		}
-
-		.icon.mongodb {
-			width: 7rem;
-		}
-
-		.icon.mysql {
-			width: 6rem;
-		}
-
-		.icon.nodejs {
-			width: 5rem;
-		}
-
-		.icon.ocaml {
-			width: 4rem;
-		}
-
-		.icon.plotly {
-			width: 8rem;
-		}
-
-		.icon.postman {
-			width: 4rem;
-		}
-
-		.icon.python {
-			width: 4rem;
-		}
-
-		.icon.reactjs {
-			width: 4rem;
-		}
-
-		.icon.sbu {
-			width: 12rem;
-		}
-
-		.icon.springboot {
-			width: 11rem;
-		}
-
-		.icon.vba {
-			width: 5rem;
-		}
-
-		.icon.wcc {
-			width: 12rem;
-		}
-
 
 		.collapsible {
 			background-color: #777;
