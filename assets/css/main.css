@@ -512,16 +512,52 @@ input, select, textarea {
 
 /* Skills Icons */
 
-		.icon.canva {
+		.tu-icon.bootstrap {
 			width: 2rem;
 		}
 
-		.icon.microsoft.powerpoint {
+		.tu-icon.canva {
+			width: 2rem;
+		}
+
+		.tu-icon.chartjs {
+			width: 2rem;
+		}
+
+		.tu-icon.css {
+			width: 2rem;
+		}
+
+		.tu-icon.fetch {
 			width: 3rem;
 		}
 
-		.icon.microsoft.excel {
+		.tu-icon.frappe {
+			width: 2rem;
+		}
+
+		.tu-icon.html {
+			width: 2rem;
+		}
+
+		.tu-icon.javascript {
+			width: 2rem;
+		}
+
+		.tu-icon.leaflet {
 			width: 3rem;
+		}
+
+		.tu-icon.microsoft.powerpoint {
+			width: 3rem;
+		}
+
+		.tu-icon.microsoft.excel {
+			width: 3rem;
+		}
+
+		.tu-icon.plotly {
+			width: 4rem;
 		}
 
 		.collapsible {
