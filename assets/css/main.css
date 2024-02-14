@@ -536,8 +536,16 @@ input, select, textarea {
 			width: 2rem;
 		}
 
+		.tu-icon.github {
+			width: 3rem;
+		}
+
 		.tu-icon.html {
 			width: 2rem;
+		}
+
+		.tu-icon.java {
+			width: 3rem;
 		}
 
 		.tu-icon.javascript {
@@ -548,6 +556,14 @@ input, select, textarea {
 			width: 3rem;
 		}
 
+		.tu-icon.lucidchart {
+			width: 4rem;
+		}
+
+		.tu-icon.matplotlib {
+			width: 4rem;
+		}
+
 		.tu-icon.microsoft.powerpoint {
 			width: 3rem;
 		}
@@ -556,7 +572,27 @@ input, select, textarea {
 			width: 3rem;
 		}
 
+		.tu-icon.mysql {
+			width: 3rem;
+		}
+
 		.tu-icon.plotly {
+			width: 4rem;
+		}
+
+		.tu-icon.python {
+			width: 2rem;
+		}
+
+		.tu-icon.sbu {
+			width: 11rem;
+		}
+
+		.tu-icon.seawulf {
+			width: 3rem;
+		}
+
+		.tu-icon.springboot {
 			width: 4rem;
 		}
 
