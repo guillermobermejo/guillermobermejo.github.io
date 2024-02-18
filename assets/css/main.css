@@ -596,6 +596,10 @@ input, select, textarea {
 			width: 4rem;
 		}
 
+		.tu-icon.varsity-tutors {
+			width: 7rem;
+		}
+
 		.collapsible {
 			background-color: #777;
 			color: white;
