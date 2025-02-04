@@ -415,6 +415,150 @@
 
 			});
 
+
+
+// Enyo's Escape Project
+
+			// Section: Project-header
+
+			$window.on('load', function() {
+
+				$('#enyos-escape-project-header-table').poptrox({
+					caption: function($a) { return $a.next('h3').text(); },
+					overlayColor: '#2c2c2c',
+					overlayOpacity: 0.85,
+					popupCloserText: '',
+					popupLoaderText: '',
+					selector: '.work-item a.image',
+					usePopupCaption: true,
+					usePopupDefaultStyling: false,
+					usePopupEasyClose: false,
+					usePopupNav: true,
+					windowMargin: (breakpoints.active('<=small') ? 0 : 50)
+				});
+
+			});
+		
+		// Section: Project-info
+
+			$window.on('load', function() {
+
+				$('#enyos-escape-project-info').poptrox({
+					caption: function($a) { return $a.next('h3').text(); },
+					overlayColor: '#2c2c2c',
+					overlayOpacity: 0.85,
+					popupCloserText: '',
+					popupLoaderText: '',
+					selector: '.work-item a.image',
+					usePopupCaption: true,
+					usePopupDefaultStyling: false,
+					usePopupEasyClose: false,
+					usePopupNav: true,
+					windowMargin: (breakpoints.active('<=small') ? 0 : 50)
+				});
+
+			});
+
+		// Section: Overview Section.
+
+			$window.on('load', function() {
+
+				$('#section-enyos-escape-overview').poptrox({
+					caption: function($a) { return $a.next('h3').text(); },
+					overlayColor: '#2c2c2c',
+					overlayOpacity: 0.85,
+					popupCloserText: '',
+					popupLoaderText: '',
+					selector: '.work-item a.image',
+					usePopupCaption: true,
+					usePopupDefaultStyling: false,
+					usePopupEasyClose: false,
+					usePopupNav: true,
+					windowMargin: (breakpoints.active('<=small') ? 0 : 50)
+				});
+
+			});
+
+		// Section: Engine Section.
+
+		$window.on('load', function() {
+
+			$('#section-enyos-escape-engine').poptrox({
+				caption: function($a) { return $a.next('h3').text(); },
+				overlayColor: '#2c2c2c',
+				overlayOpacity: 0.85,
+				popupCloserText: '',
+				popupLoaderText: '',
+				selector: '.work-item a.image',
+				usePopupCaption: true,
+				usePopupDefaultStyling: false,
+				usePopupEasyClose: false,
+				usePopupNav: true,
+				windowMargin: (breakpoints.active('<=small') ? 0 : 50)
+			});
+
+		// Section: Contrubution Section.
+
+		$window.on('load', function() {
+
+			$('#section-enyos-escape-contribution').poptrox({
+				caption: function($a) { return $a.next('h3').text(); },
+				overlayColor: '#2c2c2c',
+				overlayOpacity: 0.85,
+				popupCloserText: '',
+				popupLoaderText: '',
+				selector: '.work-item a.image',
+				usePopupCaption: true,
+				usePopupDefaultStyling: false,
+				usePopupEasyClose: false,
+				usePopupNav: true,
+				windowMargin: (breakpoints.active('<=small') ? 0 : 50)
+			});
+
+		});
+
+		// Section: Play Testing Section.
+
+		$window.on('load', function() {
+
+			$('#section-enyos-escape-play-testing').poptrox({
+				caption: function($a) { return $a.next('h3').text(); },
+				overlayColor: '#2c2c2c',
+				overlayOpacity: 0.85,
+				popupCloserText: '',
+				popupLoaderText: '',
+				selector: '.work-item a.image',
+				usePopupCaption: true,
+				usePopupDefaultStyling: false,
+				usePopupEasyClose: false,
+				usePopupNav: true,
+				windowMargin: (breakpoints.active('<=small') ? 0 : 50)
+			});
+
+		});
+
+		// Section: Conclusion Section.
+
+		$window.on('load', function() {
+
+			$('#section-enyos-escape-conclusion').poptrox({
+				caption: function($a) { return $a.next('h3').text(); },
+				overlayColor: '#2c2c2c',
+				overlayOpacity: 0.85,
+				popupCloserText: '',
+				popupLoaderText: '',
+				selector: '.work-item a.image',
+				usePopupCaption: true,
+				usePopupDefaultStyling: false,
+				usePopupEasyClose: false,
+				usePopupNav: true,
+				windowMargin: (breakpoints.active('<=small') ? 0 : 50)
+			});
+
+		});
+
+		});
+
 })(jQuery);
 
 var coll = document.getElementsByClassName("collapsible");

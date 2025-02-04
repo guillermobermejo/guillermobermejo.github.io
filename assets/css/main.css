@@ -316,6 +316,10 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
+		.grey-header-title {
+			background-color: rgb(212,212,212);
+		}
+
 		.quick-link {
 			color: #787878;
 		}
@@ -510,94 +514,26 @@ input, select, textarea {
 			display: grid;
 		}
 
-/* Skills Icons */
+/* Emblem Icons */
 
-		.tu-icon.bootstrap {
+		.emblem-icon-2rem {
 			width: 2rem;
 		}
 
-		.tu-icon.canva {
-			width: 2rem;
-		}
-
-		.tu-icon.chartjs {
-			width: 2rem;
-		}
-
-		.tu-icon.css {
-			width: 2rem;
-		}
-
-		.tu-icon.fetch {
+		.emblem-icon-3rem {
 			width: 3rem;
 		}
 
-		.tu-icon.frappe {
-			width: 2rem;
-		}
-
-		.tu-icon.github {
-			width: 3rem;
-		}
-
-		.tu-icon.html {
-			width: 2rem;
-		}
-
-		.tu-icon.java {
-			width: 3rem;
-		}
-
-		.tu-icon.javascript {
-			width: 2rem;
-		}
-
-		.tu-icon.leaflet {
-			width: 3rem;
-		}
-
-		.tu-icon.lucidchart {
+		.emblem-icon-4rem {
 			width: 4rem;
 		}
 
-		.tu-icon.matplotlib {
-			width: 4rem;
-		}
-
-		.tu-icon.microsoft.powerpoint {
-			width: 3rem;
-		}
-
-		.tu-icon.microsoft.excel {
-			width: 3rem;
-		}
-
-		.tu-icon.mysql {
-			width: 3rem;
-		}
-
-		.tu-icon.plotly {
-			width: 4rem;
-		}
-
-		.tu-icon.python {
-			width: 2rem;
-		}
-
-		.tu-icon.sbu {
-			width: 11rem;
-		}
-
-		.tu-icon.seawulf {
-			width: 3rem;
-		}
-
-		.tu-icon.springboot {
-			width: 4rem;
-		}
-
-		.tu-icon.varsity-tutors {
+		.emblem-icon-7rem {
 			width: 7rem;
+		}
+
+		.emblem-icon-11rem {
+			width: 11rem;
 		}
 
 		.collapsible {
