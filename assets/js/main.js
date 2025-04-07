@@ -313,13 +313,13 @@
 			});
 
 
-	// Angelinas Deli Project
+	// Angelinas Delicatessen Project
 
 			// Section: Project-header
 
 			$window.on('load', function() {
 
-				$('#angelinas-deli-contract-project-header-table').poptrox({
+				$('#angelinas-delicatessen-contract-project-header-table').poptrox({
 					caption: function($a) { return $a.next('h3').text(); },
 					overlayColor: '#2c2c2c',
 					overlayOpacity: 0.85,
@@ -339,7 +339,7 @@
 
 			$window.on('load', function() {
 
-				$('#section-angelinas-deli-contract-project-info').poptrox({
+				$('#section-angelinas-delicatessen-contract-project-info').poptrox({
 					caption: function($a) { return $a.next('h3').text(); },
 					overlayColor: '#2c2c2c',
 					overlayOpacity: 0.85,
@@ -359,7 +359,7 @@
 
 			$window.on('load', function() {
 
-				$('#section-angelinas-deli-contract-overview').poptrox({
+				$('#section-angelinas-delicatessen-contract-overview').poptrox({
 					caption: function($a) { return $a.next('h3').text(); },
 					overlayColor: '#2c2c2c',
 					overlayOpacity: 0.85,
@@ -379,7 +379,7 @@
 
 			$window.on('load', function() {
 
-				$('#section-angelinas-deli-contract-story-boards').poptrox({
+				$('#section-angelinas-delicatessen-contract-story-boards').poptrox({
 					caption: function($a) { return $a.next('h3').text(); },
 					overlayColor: '#2c2c2c',
 					overlayOpacity: 0.85,
@@ -399,7 +399,7 @@
 
 			$window.on('load', function() {
 
-				$('#section-angelinas-deli-contract-conclusion').poptrox({
+				$('#section-angelinas-delicatessen-contract-conclusion').poptrox({
 					caption: function($a) { return $a.next('h3').text(); },
 					overlayColor: '#2c2c2c',
 					overlayOpacity: 0.85,
@@ -479,6 +479,26 @@
 
 			});
 
+			// Section: Contribution Section.
+
+			$window.on('load', function() {
+
+				$('#section-enyos-escape-contribution').poptrox({
+					caption: function($a) { return $a.next('h3').text(); },
+					overlayColor: '#2c2c2c',
+					overlayOpacity: 0.85,
+					popupCloserText: '',
+					popupLoaderText: '',
+					selector: '.work-item a.image',
+					usePopupCaption: true,
+					usePopupDefaultStyling: false,
+					usePopupEasyClose: false,
+					usePopupNav: true,
+					windowMargin: (breakpoints.active('<=small') ? 0 : 50)
+				});
+
+			});
+
 		// Section: Engine Section.
 
 		$window.on('load', function() {
@@ -496,46 +516,6 @@
 				usePopupNav: true,
 				windowMargin: (breakpoints.active('<=small') ? 0 : 50)
 			});
-
-		// Section: Contrubution Section.
-
-		$window.on('load', function() {
-
-			$('#section-enyos-escape-contribution').poptrox({
-				caption: function($a) { return $a.next('h3').text(); },
-				overlayColor: '#2c2c2c',
-				overlayOpacity: 0.85,
-				popupCloserText: '',
-				popupLoaderText: '',
-				selector: '.work-item a.image',
-				usePopupCaption: true,
-				usePopupDefaultStyling: false,
-				usePopupEasyClose: false,
-				usePopupNav: true,
-				windowMargin: (breakpoints.active('<=small') ? 0 : 50)
-			});
-
-		});
-
-		// Section: Contrubution Section.
-
-		$window.on('load', function() {
-
-			$('#subsection-contribution-artwork-introduction').poptrox({
-				caption: function($a) { return $a.next('h3').text(); },
-				overlayColor: '#2c2c2c',
-				overlayOpacity: 0.85,
-				popupCloserText: '',
-				popupLoaderText: '',
-				selector: '.work-item a.image',
-				usePopupCaption: true,
-				usePopupDefaultStyling: false,
-				usePopupEasyClose: false,
-				usePopupNav: true,
-				windowMargin: (breakpoints.active('<=small') ? 0 : 50)
-			});
-
-		});
 
 		// Section: Play Testing Section.
 
