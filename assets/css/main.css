@@ -319,6 +319,10 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
   		}
+/* Audio Adjusters */
+		.audio-container {
+			width: 100%;
+		}
 /* 2D Pixel Art */
 		.pixel-art-2d-medium {
 			height: 40px;
