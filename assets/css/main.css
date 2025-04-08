@@ -531,11 +531,11 @@ input, select, textarea {
 		}
 
 		.very-small-font {
-			font-size: 14px;
+			font-size: 1.6vmin;
 		}
 
 		.small-font {
-			font-size: 16px;
+			font-size: 1.8vmin;
 		}
 
 		.row-title-cell {
