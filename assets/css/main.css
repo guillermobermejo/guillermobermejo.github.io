@@ -321,7 +321,8 @@ input, select, textarea {
   		}
 /* Audio Adjusters */
 		.audio-container {
-			width: 100%;
+			max-width: 100%;
+			min-width: 50%;
 		}
 /* 2D Pixel Art */
 		.pixel-art-2d-medium {
